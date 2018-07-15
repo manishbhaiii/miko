@@ -20,7 +20,7 @@ module.exports = {
       });
     } else {
       await interaction.reply({
-        content: '❓ You don\'t have any conversation history to clear.',
+        content: 'You don\'t have any conversation history to clear.',
         ephemeral: true
       });
     }
