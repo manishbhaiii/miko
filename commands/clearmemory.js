@@ -15,7 +15,7 @@ module.exports = {
     
     if (success) {
       await interaction.reply({
-        content: '🧹 Your conversation history has been cleared successfully!',
+        content: '🧹 Your conversation history has been cleared successfully!!',
         ephemeral: true
       });
     } else {

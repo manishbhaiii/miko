@@ -13,7 +13,7 @@ module.exports = {
       // Check if user has administrator permissions
       if (!interaction.member.permissions.has(PermissionFlagsBits.Administrator)) {
         return await interaction.reply({
-          content: '❌ You need Administrator permissions to use this command!',
+          content: '❌ You need Administrator permissions to use this command!!',
           ephemeral: true
         });
       }
